@@ -108,12 +108,19 @@ Get sublime text : <http://www.sublimetext.com/3>, install the package control p
 
 Tweak the user settings :
 
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"indent_to_bracket": true,
 	"scroll_past_end": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+	"word_wrap": "true",
+	"draw_white_space": "all"
 
 
 ## Install other applications
