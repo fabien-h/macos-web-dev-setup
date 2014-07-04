@@ -1,7 +1,7 @@
-macos setup for web developpement
+Development environment setup after a clean Mac OS install
 ===================
 
-This is what is use to work. Mabye not what you should use. I mainly do front end js with ember and meteor. So, zero python, zero ruby for me and a very little PHP for me.
+This is what is use as a playground. I mainly do front end js with frameworks like ember or meteor and some node. So, zero python, zero ruby and a very few PHP for me.
 
 At first, check updates via the appstore.
 
