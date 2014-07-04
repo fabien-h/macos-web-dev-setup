@@ -105,6 +105,7 @@ Get sublime text : <http://www.sublimetext.com/3>, install the package control p
 * sidebad enhancements
 * sublime linter
 * sublime linter jshint
+* HTML prettify
 
 Tweak the user settings :
 
@@ -119,8 +120,7 @@ Tweak the user settings :
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true",
-	"draw_white_space": "all"
+	"word_wrap": "true"
 
 
 ## Install other applications
