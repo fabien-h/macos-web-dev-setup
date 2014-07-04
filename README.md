@@ -19,6 +19,8 @@ In the system preferences
 * mouse / trackpad
 	* desactivate natural way
 	* tap to click and two tap to right clic
+* security
+	* allow application from anywhere
 
 ## Get your terminal ready
 
