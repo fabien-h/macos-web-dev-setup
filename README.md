@@ -94,10 +94,10 @@ Get sublime text : <http://www.sublimetext.com/3>, install the package control p
 * advanced new file
 * bracket highligther
 * colorpicker
-* ember snippets
 * emmet
 * find++
 * handlebars
+* HTML prettify
 * html5
 * javascript snippets
 * jquery
@@ -105,9 +105,11 @@ Get sublime text : <http://www.sublimetext.com/3>, install the package control p
 * scss
 * scss snipets
 * sidebad enhancements
+* sublime code intel
 * sublime linter
 * sublime linter jshint
-* HTML prettify
+
+> install the npm module for jshint : npm install -g jshint
 
 Tweak the user settings :
 
@@ -157,7 +159,6 @@ The one I use
 9. **skyfont** to get google webfonts on my computer
 10. **Font prep** to build font sets to inject
 11. **axure** to build wireframe
-12. 
 
 ### xcode
 
