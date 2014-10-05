@@ -105,7 +105,7 @@ Get sublime text : <http://www.sublimetext.com/3>, install the package control p
 * scss
 * scss snipets
 * sidebad enhancements
-* sublime code intel
+* javascriptnext
 * sublime linter
 * sublime linter jshint
 
