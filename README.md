@@ -68,8 +68,11 @@ Install a few packages :
 
 ## Install some web packages
 
-* Install compass and sass : `gem install compass`
-* Install yeoman (you will get grunt and bower) : `npm install -g yo`
+* Install compass and sass : `gem install compass` => event if you use libsass most of the time
+* Install gulp `npm instal -g gulp`
+* Install grunt `npm instal -g grunt`
+* Install bower `npm instal -g bower`
+* Install yeoman : `npm install -g yo`
 * Install meteor `curl https://install.meteor.com/ | sh`
 
 ## Install source controll
@@ -93,27 +96,28 @@ Get sublime text : <http://www.sublimetext.com/3>, install the package control p
 
 * advanced new file
 * bracket highligther
-* colorpicker
 * emmet
 * find++
 * handlebars
 * HTML prettify
 * html5
 * javascript snippets
+* javascrtip next es6 syntax
 * jquery
 * meteor snippets
 * scss
 * scss snipets
 * sidebad enhancements
-* javascriptnext
 * sublime linter
-* sublime linter jshint
+* sublime linter eslint
+* theme cobalt2 http://wesbos.com/cobalt2-theme-sublime-text-2/
 
-> install the npm module for jshint : npm install -g jshint
+> install the npm module for eslint
 
 Tweak the user settings :
 
-	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
+	"theme": "Cobalt2.sublime-theme",
 	"font_size": 10,
 	"ignored_packages":
 	[
@@ -135,14 +139,12 @@ Tweak the user settings :
 2. **Dropbox** & **Google drive** To keep your datas safe. <https://itunes.apple.com/fr/app/xcode/id497799835?mt=12>, <https://drive.google.com>
 3. **Mu torrent** You know what this is for <http://www.utorrent.com/>
 4. **VLC** Best video player <http://www.videolan.org/vlc/>
-5. **Moom** To arrange windows <http://manytricks.com/moom/>
-6. **The unarchiver** <https://itunes.apple.com/fr/app/the-unarchiver/id425424353?mt=12>
 7. **onyx** to manage mac os preferences <http://www.titanium.free.fr/downloadonyx.php>
 8. **disk inventory x** <http://www.derlien.com/>
 9. **Transmit** for FTP <https://panic.com/transmit/>
 10. **Mou** to edit markdown <http://mouapp.com/>
-11. **bartender** to manage your top task bar <http://www.macbartender.com/>
 12. **caffeine** to prevent your mac from going to sleep <https://itunes.apple.com/fr/app/caffeine/id411246225?mt=12>
+13. **SourceTree** for your git client
 
 ### Graphic / design softwares
 
