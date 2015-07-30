@@ -22,7 +22,6 @@ In the system preferences
 	* tap to click and two tap to right clic
 * security
 	* allow application from anywhere
-	* 
 
 ## Get your terminal ready
 
@@ -33,7 +32,8 @@ In the system preferences
 5. Donwload the solarized theme <http://ethanschoonover.com/solarized>
 6. Make it Launch on startup in the global mac os preferences
 7. Make it default
-8. Install oh-my-zsh : `curl -L http://install.ohmyz.sh | sh` and restart the terminal
+8. Add 20% transparency
+9. Install oh-my-zsh : `curl -L http://install.ohmyz.sh | sh` and restart the terminal
 
 ## Get the /usr/local ownership
 
