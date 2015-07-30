@@ -57,7 +57,7 @@ Get chrome, canary and firefox. Add some extensions to chrome :
 
 Get homebrew :
 
-	ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Install a few packages :
 
