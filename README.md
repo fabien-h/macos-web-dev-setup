@@ -11,6 +11,7 @@ In the system preferences
 
 * general
 	* icon size > small
+	* Use dark menu bar and dock
 * desktop > choose a nice wall paper !
 * dock
 	* small size, small magnifiying
@@ -21,6 +22,7 @@ In the system preferences
 	* tap to click and two tap to right clic
 * security
 	* allow application from anywhere
+	* 
 
 ## Get your terminal ready
 
@@ -102,14 +104,14 @@ Get sublime text : <http://www.sublimetext.com/3>, install the package control p
 * HTML prettify
 * html5
 * javascript snippets
-* javascrtip next es6 syntax
+* babel
 * jquery
 * meteor snippets
 * scss
 * scss snipets
 * sidebad enhancements
 * sublime linter
-* sublime linter eslint
+* sublime linter jsxhint
 * theme cobalt2 http://wesbos.com/cobalt2-theme-sublime-text-2/
 
 > install the npm module for eslint
