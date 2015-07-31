@@ -77,7 +77,7 @@ Install a few packages :
 * Install yeoman : `npm install -g yo`
 * Install meteor `curl https://install.meteor.com/ | sh`
 
-## Install source controll
+## Install source control
 
 Get the base git and svn. Then install source tree for Git, the github client and cornerstone for svn.
 
@@ -113,6 +113,9 @@ Get sublime text : <http://www.sublimetext.com/3>, install the package control p
 * sublime linter
 * sublime linter jsxhint
 * theme cobalt2 http://wesbos.com/cobalt2-theme-sublime-text-2/
+
+Ad sublime command to your path
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 
 > install the npm module for eslint
 
