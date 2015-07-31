@@ -147,6 +147,7 @@ Tweak the user settings :
 10. **Mou** to edit markdown <http://mouapp.com/>
 12. **caffeine** to prevent your mac from going to sleep <https://itunes.apple.com/fr/app/caffeine/id411246225?mt=12>
 13. **SourceTree** for your git client
+14. **Robomongo** : http://robomongo.org/ to manage distant database
 
 ### Graphic / design softwares
 
