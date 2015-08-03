@@ -109,6 +109,7 @@ Get sublime text : <http://www.sublimetext.com/3>, install the package control p
 * meteor snippets
 * scss
 * scss snipets
+* DocBlockr
 * sidebad enhancements
 * sublime linter
 * sublime linter jsxhint
