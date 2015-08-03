@@ -113,6 +113,7 @@ Get sublime text : <http://www.sublimetext.com/3>, install the package control p
 * sublime linter
 * sublime linter jsxhint
 * theme cobalt2 http://wesbos.com/cobalt2-theme-sublime-text-2/
+* monokai extended color scheme => https://github.com/jonschlinkert/sublime-monokai-extended (+ set it in the preferences)
 
 Ad sublime command to your path
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
