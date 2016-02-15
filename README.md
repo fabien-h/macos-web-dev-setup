@@ -83,10 +83,18 @@ Get the base git and svn. Then install source tree for Git, the github client an
 
 Configure your git credentials :
 
-	git config --global user.name "fabien"
-	git config --global user.email "fabien.huet@gmail.com"
+    git config --global user.name "fabien"
+    git config --global user.email "fabien.huet@gmail.com"
 
-> Add your new github rsa key to your bitbucket account. Your github acount will setup automatically when syncing with the github client.
+Create SSH key :
+
+    ssh-keygen -t rsa -b 4096 -C "fabien.huet@gmail.com"
+
+Then copy it with :
+
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+Then add it to gothub and bitbucket account
 
 ## Install MAMP
 
