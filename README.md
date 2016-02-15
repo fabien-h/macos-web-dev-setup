@@ -92,7 +92,7 @@ Create SSH key :
 
 Then copy it with :
 
-    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    pbcopy < ~/.ssh/id_rsa.pub
 
 Then add it to gothub and bitbucket account
 
