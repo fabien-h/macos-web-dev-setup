@@ -131,20 +131,21 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 
 Tweak the user settings :
 
-	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
-	"theme": "Cobalt2.sublime-theme",
-	"font_size": 10,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"indent_to_bracket": true,
-	"scroll_past_end": true,
-	"tab_size": 4,
-	"translate_tabs_to_spaces": false,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
-
+    {
+        "color_scheme": "Packages/User/SublimeLinter/Monokai Extended (SL).tmTheme",
+        "font_size": 10,
+        "ignored_packages":
+        [
+            "Vintage"
+        ],
+        "indent_to_bracket": true,
+        "scroll_past_end": true,
+        "tab_size": 4,
+        "theme": "Cobalt2.sublime-theme",
+        "translate_tabs_to_spaces": false,
+        "trim_trailing_white_space_on_save": true,
+        "word_wrap": "true"
+    }
 
 ## Install other applications
 
