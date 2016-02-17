@@ -162,6 +162,8 @@ Tweak the user settings :
 12. **caffeine** to prevent your mac from going to sleep <https://itunes.apple.com/fr/app/caffeine/id411246225?mt=12>
 13. **SourceTree** for your git client
 14. **Robomongo** : http://robomongo.org/ to manage distant database
+15. **little snitch** : https://www.obdev.at/products/littlesnitch/index.html => manage in and out connections
+16. **slack** : https://slack.com/is
 
 ### Graphic / design softwares
 
