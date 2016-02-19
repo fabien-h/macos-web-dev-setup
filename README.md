@@ -144,7 +144,8 @@ Tweak the user settings :
         "theme": "Cobalt2.sublime-theme",
         "translate_tabs_to_spaces": false,
         "trim_trailing_white_space_on_save": true,
-        "word_wrap": "true"
+        "word_wrap": "true",
+        "folder_exclude_patterns": [".meteor", ".git", ".hg", ".svn"]
     }
 
 ## Install other applications
