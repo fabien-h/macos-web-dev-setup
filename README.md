@@ -35,8 +35,8 @@ In the system preferences
 8. Add 20% transparency
 9. Install oh-my-zsh : `curl -L http://install.ohmyz.sh | sh` and restart the terminal
 10. Download and install the patched version of inconsolata from [powerline fonts]("https://github.com/powerline/fonts")
-11. Set it as default font for ascii and non ascii chharacters (13pt)
-12. Set `ZSH_THEME="agnoster"` in `~/.zshrc`
+11. Set it as default font for ascii and non ascii characters (13pt)
+12. Install [agnosterzak]("https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme") and set  `ZSH_THEME="agnosterzak"` in `~/.zshrc`
 
 ## Get the /usr/local ownership
 
