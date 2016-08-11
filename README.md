@@ -29,11 +29,14 @@ In the system preferences
 2. Uncheck "User Lion-style Fullscreen"
 3. Add ctrl + esc as hotkey to make it appear
 4. Go full screen
-5. Donwload the solarized theme <http://ethanschoonover.com/solarized>
+5. Get the [cobalt theme]("https://github.com/wesbos/Cobalt2-iterm")
 6. Make it Launch on startup in the global mac os preferences
 7. Make it default
 8. Add 20% transparency
 9. Install oh-my-zsh : `curl -L http://install.ohmyz.sh | sh` and restart the terminal
+10. Download and install the patched version of inconsolata from [powerline fonts]("https://github.com/powerline/fonts")
+11. Set it as default font for ascii and non ascii chharacters (13pt)
+12. Set `ZSH_THEME="agnoster"` in `~/.zshrc`
 
 ## Get the /usr/local ownership
 
