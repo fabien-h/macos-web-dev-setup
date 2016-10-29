@@ -5,6 +5,8 @@ This is what is use as a playground. I mainly do front end js with frameworks li
 
 At first, check updates via the appstore.
 
+> To add a directory to the PATH : export PATH="/usr/local/...:$PATH"
+
 ## Basic settings
 
 In the system preferences
