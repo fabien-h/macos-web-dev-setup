@@ -37,6 +37,8 @@ In the system preferences
 10. Download and install the patched version of inconsolata from [powerline fonts](https://github.com/powerline/fonts)
 11. Set it as default font for ascii and non ascii characters (13pt)
 12. Install [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) and set  `ZSH_THEME="agnosterzak"` in `~/.zshrc`
+13. Install Xcode from the appStore and then the Xcode dev tools with `xcode-select --install`
+14. Install Mac port to get the linux commands : https://www.macports.org/
 
 ## Get the /usr/local ownership
 
