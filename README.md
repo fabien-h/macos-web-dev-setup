@@ -137,22 +137,35 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 
 Tweak the user settings :
 
-    {
-        "color_scheme": "Packages/User/SublimeLinter/Monokai Extended (SL).tmTheme",
-        "font_size": 10,
-        "ignored_packages":
-        [
-            "Vintage"
-        ],
-        "indent_to_bracket": true,
-        "scroll_past_end": true,
-        "tab_size": 4,
-        "theme": "Cobalt2.sublime-theme",
-        "translate_tabs_to_spaces": false,
-        "trim_trailing_white_space_on_save": true,
-        "word_wrap": "true",
-        "folder_exclude_patterns": [".meteor", ".git", ".hg", ".svn"]
-    }
+	{
+		"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
+		"folder_exclude_patterns":
+		[
+			".meteor",
+			".git",
+			".hg",
+			".svn"
+		],
+		"ignored_packages":
+		[
+			"Vintage"
+		],
+		"indent_to_bracket": true,
+		"material_theme_accent_pink": true,
+		"material_theme_accent_scrollbars": true,
+		"material_theme_bullet_tree_indicator": true,
+		"material_theme_compact_sidebar": true,
+		"material_theme_contrast_mode": true,
+		"material_theme_small_statusbar": true,
+		"material_theme_tabs_autowidth": true,
+		"material_theme_tabs_separator": true,
+		"scroll_past_end": true,
+		"tab_size": 4,
+		"theme": "Material-Theme-Palenight.sublime-theme",
+		"translate_tabs_to_spaces": false,
+		"trim_trailing_white_space_on_save": true,
+		"word_wrap": "true"
+	}
 
 ## Install other applications
 
