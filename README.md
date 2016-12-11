@@ -184,6 +184,7 @@ Tweak the user settings :
 14. **Robomongo** : http://robomongo.org/ to manage distant database
 15. **little snitch** : https://www.obdev.at/products/littlesnitch/index.html => manage in and out connections
 16. **slack** : https://slack.com/is
+17. **lightshot** : https://app.prntscr.com/en/
 
 ### Graphic / design softwares
 
