@@ -7,6 +7,10 @@ At first, check updates via the appstore.
 
 > To add a directory to the PATH : export PATH="/usr/local/...:$PATH"
 
+Display hidden folders :
+* `defaults write com.apple.finder AppleShowAllFiles YES`
+* `killall Finder`
+
 ## Basic settings
 
 In the system preferences
@@ -77,11 +81,11 @@ Install a few packages :
 
 ## Install some web packages
 
-* Install compass and sass : `gem install compass` => event if you use libsass most of the time
-* Install gulp `npm instal -g gulp`
-* Install grunt `npm instal -g grunt`
-* Install bower `npm instal -g bower`
-* Install yeoman : `npm install -g yo`
+* Install compass and sass : `gem install compass` => even if you use libsass most of the time
+* Install gulp `npm i -g gulp`
+* Install grunt `npm i -g grunt`
+* Install bower `npm i -g bower`
+* Install yeoman : `npm i -g yo`
 * Install meteor `curl https://install.meteor.com/ | sh`
 
 ## Install source control
