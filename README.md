@@ -1,7 +1,7 @@
 Development environment setup after a clean Mac OS install
 ===================
 
-This is what is use as a playground. I mainly do front end js with frameworks like ember or meteor and some node. So, zero python, zero ruby and a very few PHP for me.
+This is what is use as a playground. I mainly do full stack js with react / meteor / raw node and sometimes ember. Rarely python or ruby and some PHP legacy code.
 
 At first, check updates via the appstore.
 
@@ -85,6 +85,7 @@ Install a few packages :
 * Install gulp `npm i -g gulp`
 * Install grunt `npm i -g grunt`
 * Install bower `npm i -g bower`
+* Install webpack `npm i -g webpack`
 * Install yeoman : `npm i -g yo`
 * Install meteor `curl https://install.meteor.com/ | sh`
 
