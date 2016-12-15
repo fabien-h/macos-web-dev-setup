@@ -184,7 +184,7 @@ Tweak the user settings :
 8. **disk inventory x** <http://www.derlien.com/>
 9. **Transmit** for FTP <https://panic.com/transmit/>
 10. **Mou** to edit markdown <http://mouapp.com/>
-12. **caffeine** to prevent your mac from going to sleep <https://itunes.apple.com/fr/app/caffeine/id411246225?mt=12>
+12. **keepingyouawake** to prevent your mac from going to sleep <https://github.com/newmarcel/KeepingYouAwake> install with `brew cask install keepingyouawake`
 13. **SourceTree** for your git client
 14. **Robomongo** : http://robomongo.org/ to manage distant database
 15. **little snitch** : https://www.obdev.at/products/littlesnitch/index.html => manage in and out connections
