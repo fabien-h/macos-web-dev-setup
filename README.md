@@ -1,7 +1,7 @@
 Development environment setup after a clean Mac OS install
 ===================
 
-This is what is use as a playground. I mainly do full stack js with react / meteor / raw node and sometimes ember. Rarely python or ruby and some PHP legacy code.
+This is what is use as a playground. I mainly do full stack js with react / meteor / raw node and sometimes ember. I also go for some mative apss ios/android and some c++. Sometimes python and some PHP legacy code. Mongo Aerospike and sql for databases.
 
 At first, check updates via the appstore.
 
@@ -31,20 +31,19 @@ In the system preferences
 
 ## Get your terminal ready
 
+(install Xcode and accept user license before)
+
 1. Install iterm 2 <http://www.iterm2.com/>
-2. Uncheck "User Lion-style Fullscreen"
-3. Add ctrl + esc as hotkey to make it appear
-4. Go full screen
-5. Get the [cobalt theme](https://github.com/wesbos/Cobalt2-iterm)
-6. Make it Launch on startup in the global mac os preferences
-7. Make it default
-8. Add 20% transparency
-9. Install oh-my-zsh : `curl -L http://install.ohmyz.sh | sh` and restart the terminal
-10. Download and install the patched version of inconsolata from [powerline fonts](https://github.com/powerline/fonts)
-11. Set it as default font for ascii and non ascii characters (13pt)
-12. Install [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) and set  `ZSH_THEME="agnosterzak"` in `~/.zshrc`
-13. Install Xcode from the appStore and then the Xcode dev tools with `xcode-select --install`
-14. Install Mac port to get the linux commands : https://www.macports.org/
+2. Uncheck « Native full screen windows » in « General »
+3. Add ctrl + esc as hotkey to make it appear in « Keys »
+4. Go full screen ( cmd + return )
+5. Install oh-my-zsh : `curl -L http://install.ohmyz.sh | sh` and restart the terminal
+6. Make it Launch on startup in /Mac os preferences/Users & Groups/Loginn Items
+7. In the top menu /Iterm2/Make Iterm2 default term
+8. Download and install the patched version of inconsolata from [powerline fonts](https://github.com/powerline/fonts)
+9. Set it as default font for ascii and non ascii characters (13pt)
+10. Install [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) and set `ZSH_THEME="agnosterzak"` in `~/.zshrc` and add the custon fonts
+11. Install Mac port to get the linux commands : https://www.macports.org/
 
 ## Get the /usr/local ownership
 
@@ -57,9 +56,7 @@ In the system preferences
 Get chrome, canary and firefox. Add some extensions to chrome :
 
 * adblock plus
-* adobe edge inspect
 * advanced rest client
-* ember inspector
 * livereload
 * markdown here
 * page speed
@@ -176,20 +173,22 @@ Tweak the user settings :
 
 ### Utilities
 
-1. **Alfred**. Big improvement to spotlight : <https://itunes.apple.com/fr/app/alfred/id405843582?mt=12>
-2. **Dropbox** & **Google drive** To keep your datas safe. <https://itunes.apple.com/fr/app/xcode/id497799835?mt=12>, <https://drive.google.com>
-3. **Mu torrent** You know what this is for <http://www.utorrent.com/>
-4. **VLC** Best video player <http://www.videolan.org/vlc/>
-7. **onyx** to manage mac os preferences <http://www.titanium.free.fr/downloadonyx.php>
-8. **disk inventory x** <http://www.derlien.com/>
-9. **Transmit** for FTP <https://panic.com/transmit/>
-10. **Mou** to edit markdown <http://mouapp.com/>
-12. **keepingyouawake** to prevent your mac from going to sleep <https://github.com/newmarcel/KeepingYouAwake> install with `brew cask install keepingyouawake`
-13. **SourceTree** for your git client
-14. **Robomongo** : http://robomongo.org/ to manage distant database
-15. **little snitch** : https://www.obdev.at/products/littlesnitch/index.html => manage in and out connections
-16. **slack** : https://slack.com/is
-17. **lightshot** : https://app.prntscr.com/en/
+1. **Dropbox** & **Google drive** To keep your datas safe. <https://itunes.apple.com/fr/app/xcode/id497799835?mt=12>, <https://drive.google.com>
+2. **Mu torrent** You know what this is for <http://www.utorrent.com/>
+3. **VLC** Best video player <http://www.videolan.org/vlc/>
+4. **onyx** to manage mac os preferences <http://www.titanium.free.fr/downloadonyx.php>
+5. **disk inventory x** <http://www.derlien.com/>
+6. **Transmit** for FTP <https://panic.com/transmit/> cyberduck is ok too.
+7. **MackDown** to edit markdown <https://macdown.uranusjr.com/>
+8. **keepingyouawake** to prevent your mac from going to sleep <https://github.com/newmarcel/KeepingYouAwake> install with `brew cask install keepingyouawake`
+9. **SourceTree** for your git client ; Tower is ok too
+10. **Robomongo** : <http://robomongo.org/> to manage distant or local mongo database
+11. **little snitch** : <https://www.obdev.at/products/littlesnitch/index.html> => manage in and out connections
+12. **slack** : <https://slack.com/is> for team communication
+13. **lightshot** : <https://app.prntscr.com/en/>
+14. **CLion** : powerfull IDE for C++ ; xcode is ok too
+15. **MS Office suite** to open those files...
+16. **skype**
 
 ### Graphic / design softwares
 
@@ -200,14 +199,19 @@ The one I use
 3. **Indesign** for documents
 4. **Sketch** for interface
 5. **Final cut** for video
-6. **Audition** & **logic** for sound
+6. **Logic** for sound
 7. **jpeg mini** to optimize jpeg
 8. **img optim** to optimize the other images
 9. **skyfont** to get google webfonts on my computer
-10. **Font prep** to build font sets to inject
-11. **axure** to build wireframe
 
 ### xcode
 
-What you want is not excatly xcode. What you want is the ios devices simulator. From far the best way to preview a design on an iphone or an ipad. <https://itunes.apple.com/fr/app/xcode/id497799835?mt=12>. There are many problem you will just never encounter in chrome that you need to adress. The simulator is perfect for that.
+What you want is not always xcode. What you want is the ios devices simulator. From far the best way to preview a design on an iphone or an ipad. <https://itunes.apple.com/fr/app/xcode>. There are many problem you will just never encounter in chrome that you need to adress. The simulator is perfect for that.
 
+### Android studio
+
+https://developer.android.com/studio/index.html
+
+### Enhance spotlight
+
+Smart move by siong that allow you to shut down / sleep / restart... your mac from spotlight. As you did from Alfred.  https://github.com/siong1987/shortcuts
