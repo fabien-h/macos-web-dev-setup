@@ -79,12 +79,13 @@ Install a few packages :
 ## Install some web packages
 
 * Install compass and sass : `gem install compass` => even if you use libsass most of the time
-* Install gulp `npm i -g gulp`
-* Install grunt `npm i -g grunt`
-* Install bower `npm i -g bower`
-* Install webpack `npm i -g webpack`
+* Install gulp : `npm i -g gulp`
+* Install grunt : `npm i -g grunt`
+* Install bower : `npm i -g bower`
+* Install webpack : `npm i -g webpack`
 * Install yeoman : `npm i -g yo`
-* Install meteor `curl https://install.meteor.com/ | sh`
+* Install eslint : `npm install -g eslint` => <https://github.com/roadhump/SublimeLinter-eslint>
+* Install meteor : `curl https://install.meteor.com/ | sh
 
 ## Install source control
 
@@ -113,24 +114,20 @@ Because sometimes, you will need PHP. <http://www.mamp.info/en/downloads/>
 
 Get sublime text : <http://www.sublimetext.com/3>, install the package control packages : <https://sublime.wbond.net/installation> and then some packages :
 
-* advanced new file
-* bracket highligther
-* emmet
-* find++
-* handlebars
-* HTML prettify
-* html5
-* javascript snippets
-* babel
-* jquery
-* meteor snippets
-* scss
-* scss snipets
+* AdvancedNewFile
+* Babel
+* BracketHighlighter
 * DocBlockr
-* sidebad enhancements
-* sublime linter
-* sublime linter jsxhint
-* theme material https://packagecontrol.io/packages/Material%20Theme
+* Emmet
+* Find++
+* HTML-CSS-JS Prettify
+* HTML5
+* Material Theme https://packagecontrol.io/packages/Material%20Theme
+* Mardown Extended
+* SCSS
+* SideBarEnhancements
+* SublimeLinter
+* SublimeLinter-contrib-eslint
 
 Ad sublime command to your path
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
