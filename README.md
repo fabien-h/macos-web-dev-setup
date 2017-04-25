@@ -44,6 +44,7 @@ In the system preferences
 9. Set it as default font for ascii and non ascii characters (13pt)
 10. Install [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) and set `ZSH_THEME="agnosterzak"` in `~/.zshrc` and add the custon fonts
 11. Install Mac port to get the linux commands : https://www.macports.org/
+12. pick a colour theme : http://iterm2colorschemes.com/ (« Solarized Dark Higher Contrast" or « Ocean")
 
 ## Get the /usr/local ownership
 
