@@ -105,7 +105,11 @@ Then copy it with :
 
     pbcopy < ~/.ssh/id_rsa.pub
 
-Then add it to gothub and bitbucket account
+Then add it to github and bitbucket account
+
+Make git case sensitive
+
+	git config core.ignorecase false
 
 ## Install MAMP
 
