@@ -26,58 +26,89 @@ In the system preferences
 * mouse / trackpad
 	* desactivate natural way
 	* tap to click and two tap to right clic
-* security
-	* allow application from anywhere
 
-## Get your terminal ready
+In the finder preferences
 
-(install Xcode and accept user license before)
+* General: check everything
+* Sidebar: what you like
+* Advanced: check everything
 
-1. Install iterm 2 <http://www.iterm2.com/>
-2. Uncheck « Native full screen windows » in « General »
-3. Add ctrl + esc as hotkey to make it appear in « Keys »
-4. Go full screen ( cmd + return )
-5. Install oh-my-zsh : `curl -L http://install.ohmyz.sh | sh` and restart the terminal
-6. Make it Launch on startup in /Mac os preferences/Users & Groups/Loginn Items
-7. In the top menu /Iterm2/Make Iterm2 default term
-8. Download and install the patched version of inconsolata from [powerline fonts](https://github.com/powerline/fonts)
-9. Set it as default font for ascii and non ascii characters (13pt)
-10. Install [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) and set `ZSH_THEME="agnosterzak"` in `~/.zshrc` and add the custon fonts
-11. Install Mac port to get the linux commands : https://www.macports.org/
-12. pick a colour theme : http://iterm2colorschemes.com/ (« Solarized Dark Higher Contrast" or « Ocean")
-
-## Get the /usr/local ownership
+## Get the `/usr/local` ownership
 
   sudo chown -R $USER /usr/local
 
-> This will make you owner of your /usr/local folder. [Important for npm use.](http://foohack.com/2010/08/intro-to-npm/#what_no_sudo)
+> This will make you owner of your /usr/local folder. [Important for npm use.](http://foohack.com/2010/08/intro-to-npm/#what_no_sudo) and necessary for proper homebrew use.
 
-## Install broswers
 
-Get chrome, canary and firefox. Add some extensions to chrome :
+## Install your package manager: Homebrew
 
-* adblock plus
-* advanced rest client
-* livereload
-* markdown here
-* page speed
-
-## Install a package manager
-
-Get homebrew :
+This will help installing command line programs. Get homebrew :
 
 	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Install a few packages :
 
-* git
-* wget
-* svn
-* mysql
-* node
-* mongo
+* `brew install git`
+* `brew install wget`
+* `brew install mysql`
+* `brew install mongo`
 
-## Install some web packages
+> Don't `sudo`. You have the ownership of your `/usr/local` folder.
+
+## Configure Git
+
+You installed it with `brew install git`. Now, configure your git credentials :
+
+    git config --global user.name "fabien"
+    git config --global user.email "fabien.huet@gmail.com"
+
+Create SSH key (with no passphrase, this is just a useless pain):
+
+    ssh-keygen -t rsa -b 4096 -C "fabien.huet@gmail.com"
+
+Then copy it with :
+
+    pbcopy < ~/.ssh/id_rsa.pub
+
+Then add it to github, bitbucket, gitlab... accounts.
+
+Make git case sensitive
+
+	git config --global core.ignorecase false
+
+## Get a better terminal
+
+1. Install iterm 2 <http://www.iterm2.com/> , then open preferences
+2. Uncheck « Native full screen windows » in « General »
+3. Add ctrl + esc as hotkey to make it appear in « Keys »
+4. Go full screen ( cmd + return )
+5. Install oh-my-zsh : `curl -L http://install.ohmyz.sh | sh` and restart the terminal
+6. Make it Launch on startup in `/system preferences/Users & Groups/Login Items`
+7. In the iterm menu /Iterm2/Make Iterm2 default term
+8. Download and install the patched version of inconsolata from [powerline fonts](https://github.com/powerline/fonts)
+9. Set it as default font for ascii and non ascii characters (12pt) in your iterm prefrences/Profiles/Text/Change font
+10. Install [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) and set `ZSH_THEME="agnosterzak"` in `~/.zshrc` (`nano ~/.zshrc` to start editing) and add the custom fonts
+11. Install Mac port to get the linux commands : <https://www.macports.org/>
+12. pick a colour theme : <http://iterm2colorschemes.com/> (« Solarized Dark Higher Contrast" or « Ocean")
+
+## Install broswers
+
+Get chrome and firefox. Add some extensions to chrome :
+
+* ublock origin
+* advanced rest client
+* livereload
+* markdown here
+* page speed
+* panda
+* distractoff
+* lighthouse
+
+## Install node
+
+There are many ways to install node. The easiest is to use the .pkg. Go to <https://nodejs.org/en/>
+
+## Install some global packages
 
 * Install compass and sass : `gem install compass` => even if you use libsass most of the time
 * Install gulp : `npm i -g gulp`
@@ -86,38 +117,41 @@ Install a few packages :
 * Install webpack : `npm i -g webpack`
 * Install yeoman : `npm i -g yo`
 * Install eslint : `npm install -g eslint` => <https://github.com/roadhump/SublimeLinter-eslint>
-* Install meteor : `curl https://install.meteor.com/ | sh
-
-## Install source control
-
-Get the base git and svn. Then install source tree for Git, the github client and cornerstone for svn.
-
-Configure your git credentials :
-
-    git config --global user.name "fabien"
-    git config --global user.email "fabien.huet@gmail.com"
-
-Create SSH key :
-
-    ssh-keygen -t rsa -b 4096 -C "fabien.huet@gmail.com"
-
-Then copy it with :
-
-    pbcopy < ~/.ssh/id_rsa.pub
-
-Then add it to github and bitbucket account
-
-Make git case sensitive
-
-	git config core.ignorecase false
+* Install meteor : `curl https://install.meteor.com/ | sh`
 
 ## Install MAMP
 
 Because sometimes, you will need PHP. <http://www.mamp.info/en/downloads/>
 
-## Get your editor ready
+## Install Docker
 
-Get sublime text : <http://www.sublimetext.com/3>, install the package control packages : <https://sublime.wbond.net/installation> and then some packages :
+Go to https://hub.docker.com/
+
+Start it and go configure it. Allow at least 2 cores and 6 Go (8 is better).
+
+## Create a partition for your projects
+
+MacOs is not case sensitive by default. So you have to create a partition dedicated to your projects.
+
+Give yourself a 100 Go APFS case sensitive partition.
+
+## Get your editor ready: VSCode
+
+Get VSCode : <https://code.visualstudio.com/>.
+
+Add some extensions:
+
+* Prettier https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+* Chrome debugger https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
+* ESLint https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+* TSLint https://marketplace.visualstudio.com/items?itemName=eg2.tslint
+* StyleLint https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint
+* Docker https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker
+* C/C++ https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+
+## Get your editor ready: Sublime text
+
+As a liget sublime text : <http://www.sublimetext.com/3>, install the package control packages : <https://sublime.wbond.net/installation> and then some packages :
 
 * AdvancedNewFile
 * Babel
@@ -206,10 +240,6 @@ The one I use
 8. **img optim** to optimize the other images
 9. **skyfont** to get google webfonts on my computer
 
-### xcode
-
-What you want is not always xcode. What you want is the ios devices simulator. From far the best way to preview a design on an iphone or an ipad. <https://itunes.apple.com/fr/app/xcode>. There are many problem you will just never encounter in chrome that you need to adress. The simulator is perfect for that.
-
 ### Android studio
 
 https://developer.android.com/studio/index.html
@@ -217,3 +247,9 @@ https://developer.android.com/studio/index.html
 ### Enhance spotlight
 
 Smart move by siong that allow you to shut down / sleep / restart... your mac from spotlight. As you did from Alfred.  https://github.com/siong1987/shortcuts
+
+### Xcode
+
+You need Xcode. Like it or not. Not only to build iOs / MacOs apps. But also for the command line developper tools. So go there install and accept the licence : <https://itunes.apple.com/fr/app/xcode>.
+
+Note that this is from far the best way to preview a website design on an iphone or an ipad. There are many problem you will just never encounter in chrome that you need to adress. The simulator is perfect for that.
