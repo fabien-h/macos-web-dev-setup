@@ -149,6 +149,10 @@ Add some extensions:
 * Docker https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker
 * C/C++ https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 
+Setup the command line launcher : Open the Command Palette (⇧⌘P) and type `shell command` to find the Shell Command: Install `code` command in PATH command. You can then `code .` to open the current directory in VSCode.
+
+see https://code.visualstudio.com/docs/setup/mac
+
 ## Get your editor ready: Sublime text
 
 As a liget sublime text : <http://www.sublimetext.com/3>, install the package control packages : <https://sublime.wbond.net/installation> and then some packages :
