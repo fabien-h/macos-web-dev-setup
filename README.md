@@ -1,15 +1,31 @@
 Development environment setup after a clean Mac OS install
 ===================
 
-This is what is use as a playground. I mainly do full stack js with react / meteor / raw node and sometimes ember. I also go for some mative apss ios/android and some c++. Sometimes python and some PHP legacy code. Mongo Aerospike and sql for databases.
+This is what is use as a playground. I mainly do full stack js with react / meteor / raw node and sometimes ember. I also go for some mative apps ios/android some go and some rust. Sometimes python and some PHP legacy code. Mongo Aerospike and sql for databases.
 
 At first, check updates via the appstore.
 
-> To add a directory to the PATH : export PATH="/usr/local/...:$PATH"
+> To add a temporary directory to the PATH, run `export PATH="__folder__:$PATH"` ; to add a permanent directory to the PATH, `nano ~/zshrc` and add `export PATH="__folder__:$PATH"`
 
 Display hidden folders :
-* `defaults write com.apple.finder AppleShowAllFiles YES`
-* `killall Finder`
+* run `defaults write com.apple.finder AppleShowAllFiles YES`
+* run `killall Finder` to restart the finder
+
+## Table of Contents
+
+- [Basic settings](#basic-settings)
+- [Get the `/usr/local` ownership](#get-the-usrlocal-ownership)
+- [Install your package manager: Homebrew](#install-your-package-manager-homebrew)
+- [Configure Git](#configure-git)
+- [Get a better terminal](#get-a-better-terminal)
+- [Install broswers](#install-broswers)
+- [Install node](#install-node)
+- [Install some global packages](#install-some-global-packages)
+- [Install MAMP](#install-mamp)
+- [Install Docker](#install-docker)
+- [Create a partition for your projects](#create-a-partition-for-your-projects)
+- [Get your editor ready: VSCode](#get-your-editor-ready-vscode)
+- [Other applications](#other-applications)
 
 ## Basic settings
 
@@ -39,12 +55,15 @@ In the finder preferences
 
 > This will make you owner of your /usr/local folder. [Important for npm use.](http://foohack.com/2010/08/intro-to-npm/#what_no_sudo) and necessary for proper homebrew use.
 
-
 ## Install your package manager: Homebrew
 
-This will help installing command line programs. Get homebrew :
+This will help installing command line programs. 
 
-	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+Run: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+On a mac, you have ruby.
+
+> Don't `sudo`. You have the ownership of your `/usr/local` folder.
 
 Install a few packages :
 
@@ -52,8 +71,10 @@ Install a few packages :
 * `brew install wget`
 * `brew install mysql`
 * `brew install mongo`
+* `brew install yarn` => replacement for the npm command
+* `brew install nvm`=> node version manager <https://github.com/nvm-sh/nvm>
 
-> Don't `sudo`. You have the ownership of your `/usr/local` folder.
+> nvm is super important, you should install node with nvm to be able to manage your node versions
 
 ## Configure Git
 
@@ -110,6 +131,9 @@ There are many ways to install node. The easiest is to use the .pkg. Go to <http
 
 ## Install some global packages
 
+These are some of the packages you may need:
+
+* Install tldr : `npm install -g tldr` => this is a nice community managed man page simplificator <https://tldr.sh/>
 * Install compass and sass : `gem install compass` => even if you use libsass most of the time
 * Install gulp : `npm i -g gulp`
 * Install grunt : `npm i -g grunt`
@@ -133,7 +157,7 @@ Start it and go configure it. Allow at least 2 cores and 6 Go (8 is better).
 
 MacOs is not case sensitive by default. So you have to create a partition dedicated to your projects.
 
-Give yourself a 100 Go APFS case sensitive partition.
+Give yourself at least a 100 Go APFS case sensitive partition.
 
 ## Get your editor ready: VSCode
 
@@ -153,63 +177,7 @@ Setup the command line launcher : Open the Command Palette (⇧⌘P) and type `s
 
 see https://code.visualstudio.com/docs/setup/mac
 
-## Get your editor ready: Sublime text
-
-As a liget sublime text : <http://www.sublimetext.com/3>, install the package control packages : <https://sublime.wbond.net/installation> and then some packages :
-
-* AdvancedNewFile
-* Babel
-* BracketHighlighter
-* DocBlockr
-* Emmet
-* Find++
-* HTML-CSS-JS Prettify
-* HTML5
-* Material Theme https://packagecontrol.io/packages/Material%20Theme
-* Mardown Extended
-* SCSS
-* SideBarEnhancements
-* SublimeLinter
-* SublimeLinter-contrib-eslint
-
-Ad sublime command to your path
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
-
-> install the npm module for eslint
-
-Tweak the user settings :
-
-	{
-		"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
-		"folder_exclude_patterns":
-		[
-			".meteor",
-			".git",
-			".hg",
-			".svn"
-		],
-		"ignored_packages":
-		[
-			"Vintage"
-		],
-		"indent_to_bracket": true,
-		"material_theme_accent_pink": true,
-		"material_theme_accent_scrollbars": true,
-		"material_theme_bullet_tree_indicator": true,
-		"material_theme_compact_sidebar": true,
-		"material_theme_contrast_mode": true,
-		"material_theme_small_statusbar": true,
-		"material_theme_tabs_autowidth": true,
-		"material_theme_tabs_separator": true,
-		"scroll_past_end": true,
-		"tab_size": 4,
-		"theme": "Material-Theme-Palenight.sublime-theme",
-		"translate_tabs_to_spaces": false,
-		"trim_trailing_white_space_on_save": true,
-		"word_wrap": "true"
-	}
-
-## Install other applications
+## Other applications
 
 ### Utilities
 
