@@ -1,4 +1,4 @@
-Development environment setup after a clean Mac OS install
+👨‍💻 Development environment setup after a clean Mac OS install
 ===================
 
 This is what is use as a playground. I mainly do full stack js with react / meteor / raw node and sometimes ember. I also go for some mative apps ios/android some go and some rust. Sometimes python and some PHP legacy code. Mongo Aerospike and sql for databases.
@@ -11,7 +11,7 @@ Display hidden folders :
 * run `defaults write com.apple.finder AppleShowAllFiles YES`
 * run `killall Finder` to restart the finder
 
-## Table of Contents
+## 📖 Table of Contents
 
 - [Basic settings](#basic-settings)
 - [Get the `/usr/local` ownership](#get-the-usrlocal-ownership)
@@ -27,7 +27,7 @@ Display hidden folders :
 - [Get your editor ready: VSCode](#get-your-editor-ready-vscode)
 - [Other applications](#other-applications)
 
-## Basic settings
+## 🖥 Basic settings
 
 In the system preferences
 
@@ -49,13 +49,13 @@ In the finder preferences
 * Sidebar: what you like
 * Advanced: check everything
 
-## Get the `/usr/local` ownership
+## 👤 Get the `/usr/local` ownership
 
   sudo chown -R $USER /usr/local
 
 > This will make you owner of your /usr/local folder. [Important for npm use.](http://foohack.com/2010/08/intro-to-npm/#what_no_sudo) and necessary for proper homebrew use.
 
-## Install your package manager: Homebrew
+## 🍺 Install your package manager: Homebrew
 
 This will help installing command line programs. 
 
@@ -76,7 +76,7 @@ Install a few packages :
 
 > nvm is super important, you should install node with nvm to be able to manage your node versions
 
-## Configure Git
+## 🐨 Configure Git
 
 You installed it with `brew install git`. Now, configure your git credentials :
 
@@ -97,7 +97,7 @@ Make git case sensitive
 
 	git config --global core.ignorecase false
 
-## Get a better terminal
+## <~/> Get a better terminal
 
 1. Install iterm 2 <http://www.iterm2.com/> , then open preferences
 2. Uncheck « Native full screen windows » in « General »
@@ -112,7 +112,7 @@ Make git case sensitive
 11. Install Mac port to get the linux commands : <https://www.macports.org/>
 12. pick a colour theme : <http://iterm2colorschemes.com/> (« Solarized Dark Higher Contrast" or « Ocean")
 
-## Install broswers
+## 🌐 Install broswers
 
 Get chrome and firefox. Add some extensions to chrome :
 
@@ -125,11 +125,11 @@ Get chrome and firefox. Add some extensions to chrome :
 * distractoff
 * lighthouse
 
-## Install node
+## 📌 Install node
 
 There are many ways to install node. The easiest is to use the .pkg. Go to <https://nodejs.org/en/>
 
-## Install some global packages and utilities
+##  📦 Install some global packages and utilities
 
 These are some of the packages you may need:
 
@@ -146,23 +146,23 @@ These are some of the packages you may need:
 * Install tree : `brew install tree` => tree command from linux <https://linux.die.net/man/1/tree>
 * Install broot : `brew install broot` => a better tree command (really better, use it!) <https://dystroy.org/broot/>
 
-## Install MAMP
+## 🐘 Install MAMP
 
 Because sometimes, you will need PHP. <http://www.mamp.info/en/downloads/>
 
-## Install Docker
+## 🐳 Install Docker
 
 Go to https://hub.docker.com/
 
 Start it and go configure it. Allow at least 2 cores and 6 Go (8 is better).
 
-## Create a partition for your projects
+## 💽 Create a partition for your projects
 
 MacOs is not case sensitive by default. So you have to create a partition dedicated to your projects.
 
 Give yourself at least a 100 Go APFS case sensitive partition.
 
-## Get your editor ready: VSCode
+## ✏ Get your editor ready: VSCode
 
 Get VSCode : <https://code.visualstudio.com/>.
 
@@ -180,9 +180,9 @@ Setup the command line launcher : Open the Command Palette (⇧⌘P) and type `s
 
 see https://code.visualstudio.com/docs/setup/mac
 
-## Other applications
+## 🗂 Other applications
 
-### Utilities
+### 📎 Utilities
 
 1. **Dropbox** & **Google drive** To keep your datas safe. <https://itunes.apple.com/fr/app/xcode/id497799835?mt=12>, <https://drive.google.com>
 2. **Mu torrent** You know what this is for <http://www.utorrent.com/>
@@ -201,7 +201,7 @@ see https://code.visualstudio.com/docs/setup/mac
 15. **MS Office suite** to open those files...
 16. **skype**
 
-### Graphic / design softwares
+### 🎨 Graphic / design softwares
 
 The one I use
 
@@ -215,15 +215,15 @@ The one I use
 8. **img optim** to optimize the other images
 9. **skyfont** to get google webfonts on my computer
 
-### Android studio
+### 📱 Android studio
 
 https://developer.android.com/studio/index.html
 
-### Enhance spotlight
+### 🔍 Enhance spotlight
 
 Smart move by siong that allow you to shut down / sleep / restart... your mac from spotlight. As you did from Alfred.  https://github.com/siong1987/shortcuts
 
-### Xcode
+### 📱 Xcode
 
 You need Xcode. Like it or not. Not only to build iOs / MacOs apps. But also for the command line developper tools. So go there install and accept the licence : <https://itunes.apple.com/fr/app/xcode>.
 
