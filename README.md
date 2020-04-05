@@ -13,19 +13,19 @@ Display hidden folders :
 
 ## 📖 Table of Contents
 
-- [Basic settings](#basic-settings)
-- [Get the `/usr/local` ownership](#get-the-usrlocal-ownership)
-- [Install your package manager: Homebrew](#install-your-package-manager-homebrew)
-- [Configure Git](#configure-git)
-- [Get a better terminal](#get-a-better-terminal)
-- [Install broswers](#install-broswers)
-- [Install node](#install-node)
-- [Install some global packages and utilities](#install-some-global-packages-and-utilities)
-- [Install MAMP](#install-mamp)
-- [Install Docker](#install-docker)
-- [Create a partition for your projects](#create-a-partition-for-your-projects)
-- [Get your editor ready: VSCode](#get-your-editor-ready-vscode)
-- [Other applications](#other-applications)
+- [Basic settings](#-basic-settings)
+- [Get the `/usr/local` ownership](#-get-the-usrlocal-ownership)
+- [Install your package manager: Homebrew](#-install-your-package-manager-homebrew)
+- [Configure Git](#-configure-git)
+- [Get a better terminal](#-get-a-better-terminal)
+- [Install broswers](#-install-broswers)
+- [Install node](#-install-node)
+- [Install some global packages and utilities](#-install-some-global-packages-and-utilities)
+- [Install MAMP](#-install-mamp)
+- [Install Docker](#-install-docker)
+- [Create a partition for your projects](#-create-a-partition-for-your-projects)
+- [Get your editor ready: VSCode](#-get-your-editor-ready-vscode)
+- [Other applications](#-other-applications)
 
 ## 🖥 Basic settings
 
