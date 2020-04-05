@@ -19,7 +19,6 @@ Display hidden folders :
 - [Configure Git](#-configure-git)
 - [Get a better terminal](#-get-a-better-terminal)
 - [Install broswers](#-install-broswers)
-- [Install node](#-install-node)
 - [Install some global packages and utilities](#-install-some-global-packages-and-utilities)
 - [Install MAMP](#-install-mamp)
 - [Install Docker](#-install-docker)
@@ -71,8 +70,10 @@ Install a few packages :
 * `brew install wget`
 * `brew install mysql`
 * `brew install mongo`
-* `brew install yarn` => replacement for the npm command
 * `brew install nvm`=> node version manager <https://github.com/nvm-sh/nvm>
+* `brew install yarn` => replacement for the npm command (install once node is installed)
+
+📌 You should now install node with nvm
 
 > nvm is super important, you should install node with nvm to be able to manage your node versions
 
@@ -124,10 +125,6 @@ Get chrome and firefox. Add some extensions to chrome :
 * panda
 * distractoff
 * lighthouse
-
-## 📌 Install node
-
-There are many ways to install node. The easiest is to use the .pkg. Go to <https://nodejs.org/en/>
 
 ##  📦 Install some global packages and utilities
 
