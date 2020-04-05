@@ -20,7 +20,7 @@ Display hidden folders :
 - [Get a better terminal](#get-a-better-terminal)
 - [Install broswers](#install-broswers)
 - [Install node](#install-node)
-- [Install some global packages](#install-some-global-packages)
+- [Install some global packages and utilities](#install-some-global-packages-and-utilities)
 - [Install MAMP](#install-mamp)
 - [Install Docker](#install-docker)
 - [Create a partition for your projects](#create-a-partition-for-your-projects)
@@ -129,19 +129,22 @@ Get chrome and firefox. Add some extensions to chrome :
 
 There are many ways to install node. The easiest is to use the .pkg. Go to <https://nodejs.org/en/>
 
-## Install some global packages
+## Install some global packages and utilities
 
 These are some of the packages you may need:
 
-* Install tldr : `npm install -g tldr` => this is a nice community managed man page simplificator <https://tldr.sh/>
+* Install tldr : `yarn global add tldr` => this is a nice community managed man page simplificator <https://tldr.sh/>
 * Install compass and sass : `gem install compass` => even if you use libsass most of the time
-* Install gulp : `npm i -g gulp`
-* Install grunt : `npm i -g grunt`
-* Install bower : `npm i -g bower`
-* Install webpack : `npm i -g webpack`
-* Install yeoman : `npm i -g yo`
-* Install eslint : `npm install -g eslint` => <https://github.com/roadhump/SublimeLinter-eslint>
+* Install gulp : `yarn global add gulp`
+* Install grunt : `yarn global add grunt`
+* Install bower : `yarn global add bower`
+* Install webpack : `yarn global add webpack`
+* Install yeoman : `yarn global add yo`
+* Install eslint : `yarn global add eslint` => <https://github.com/roadhump/SublimeLinter-eslint>
 * Install meteor : `curl https://install.meteor.com/ | sh`
+* Install ack : `brew install ack` => replacement for grep <https://beyondgrep.com/>
+* Install tree : `brew install tree` => tree command from linux <https://linux.die.net/man/1/tree>
+* Install broot : `brew install broot` => a better tree command (really better, use it!) <https://dystroy.org/broot/>
 
 ## Install MAMP
 
