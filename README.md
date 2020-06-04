@@ -131,12 +131,8 @@ Get chrome and firefox. Add some extensions to chrome :
 These are some of the packages you may need:
 
 * Install tldr : `yarn global add tldr` => this is a nice community managed man page simplificator <https://tldr.sh/>
-* Install compass and sass : `gem install compass` => even if you use libsass most of the time
 * Install gulp : `yarn global add gulp`
-* Install grunt : `yarn global add grunt`
-* Install bower : `yarn global add bower`
 * Install webpack : `yarn global add webpack`
-* Install yeoman : `yarn global add yo`
 * Install eslint : `yarn global add eslint` => <https://github.com/roadhump/SublimeLinter-eslint>
 * Install meteor : `curl https://install.meteor.com/ | sh`
 * Install ack : `brew install ack` => replacement for grep <https://beyondgrep.com/>
@@ -168,10 +164,10 @@ Add some extensions:
 * Prettier https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 * Chrome debugger https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 * ESLint https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-* TSLint https://marketplace.visualstudio.com/items?itemName=eg2.tslint
 * StyleLint https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint
 * Docker https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker
-* C/C++ https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+* GitLens https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+* Liveshare https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack
 
 Setup the command line launcher : Open the Command Palette (⇧⌘P) and type `shell command` to find the Shell Command: Install `code` command in PATH command. You can then `code .` to open the current directory in VSCode.
 
@@ -181,22 +177,22 @@ see https://code.visualstudio.com/docs/setup/mac
 
 ### 📎 Utilities
 
-1. **Dropbox** & **Google drive** To keep your datas safe. <https://itunes.apple.com/fr/app/xcode/id497799835?mt=12>, <https://drive.google.com>
-2. **Mu torrent** You know what this is for <http://www.utorrent.com/>
+1. **Dropbox** & **Google drive** To keep your datas safe. <https://www.dropbox.com/?landing=dbv2>, <https://drive.google.com>
+2. **Folx** Torrent downloader <https://mac.eltima.com/torrent-client.html>
 3. **VLC** Best video player <http://www.videolan.org/vlc/>
-4. **onyx** to manage mac os preferences <http://www.titanium.free.fr/downloadonyx.php>
-5. **disk inventory x** <http://www.derlien.com/>
+5. **OmniDiskSweeper** <https://www.omnigroup.com/more/>
 6. **Transmit** for FTP <https://panic.com/transmit/> cyberduck is ok too.
-7. **MackDown** to edit markdown <https://macdown.uranusjr.com/>
+7. **MacDown** to edit markdown <https://macdown.uranusjr.com/>
 8. **keepingyouawake** to prevent your mac from going to sleep <https://github.com/newmarcel/KeepingYouAwake> install with `brew cask install keepingyouawake`
 9. **SourceTree** for your git client ; Tower is ok too
 10. **Robomongo** : <http://robomongo.org/> to manage distant or local mongo database
 11. **little snitch** : <https://www.obdev.at/products/littlesnitch/index.html> => manage in and out connections
 12. **slack** : <https://slack.com/is> for team communication
-13. **lightshot** : <https://app.prntscr.com/en/>
+13. **Kap** : <https://getkap.co/> video screen capture
 14. **CLion** : powerfull IDE for C++ ; xcode is ok too
 15. **MS Office suite** to open those files...
 16. **skype**
+17. **Handbrake** : to compress videos
 
 ### 🎨 Graphic / design softwares
 
@@ -207,8 +203,6 @@ The one I use
 3. **Indesign** for documents
 4. **Sketch** for interface
 5. **Final cut** for video
-6. **Logic** for sound
-7. **jpeg mini** to optimize jpeg
 8. **img optim** to optimize the other images
 9. **skyfont** to get google webfonts on my computer
 
