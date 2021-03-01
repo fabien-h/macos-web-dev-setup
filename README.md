@@ -58,9 +58,7 @@ In the finder preferences
 
 This will help installing command line programs. 
 
-Run: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
-On a mac, you have ruby.
+Run: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" from https://brew.sh/
 
 > Don't `sudo`. You have the ownership of your `/usr/local` folder.
 
